@@ -23,7 +23,7 @@
                     v-for="product in products" 
                     class="product"
                     @click="product.active = !product.active"
-                    :class="{ selected : product.active }"
+                    v-bind:class="{ selected : product.active }"
                 >
 
                     <div class="photo">
@@ -50,7 +50,7 @@
 
             </section>
 
-            <section class="summary" v-if="total()>0">
+            <section class="summary" v-if="total() > 0">
                 <strong>Resumo do pedido</strong>
                 <table>
                     <thead>
