@@ -4,4 +4,3 @@ O projeto foi desenvolvido com Vue.js, utilizando JavaScript para comunicação.
 Devido a baixa complexidade do projeto, foi ultilizado o CDN do Vue.js descrito em sua documentação.
 
 ![imagem do front-end do totem](./img-readme/select.jpeg)
-![imagem do front-end do totem](./img-readme/no-select.jpeg)
